@@ -8,8 +8,7 @@ from .bbox import nms
 from .detect import detect, batch_detect
 
 models_urls = {
-    's3fd': 'https://www.adrianbulat.com/downloads/python-fan/s3fd-619a316812.pth',
-}
+    's3fd': 'https://www.adrianbulat.com/downloads/python-fan/s3fd-619
 
 
 class SFDDetector(FaceDetector):
